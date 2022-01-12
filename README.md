@@ -1,15 +1,20 @@
 # YoubarajPoudel
 
-// lib to show Ads in your app with easy steps()
+--> lib to show Ads in your app with easy steps()
 
-// set container layout in XML file
 
- <RelativeLayout
+
+```groovy
+   // set container layout in XML file
+   <RelativeLayout
         android:id="@+id/lay_more_apps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+```
 
- // get request for inhouse ads from server
+ --> get request for inhouse ads from server
+ 
+ ```groovy
         GetInhouseAds getInhouseAds = new GetInhouseAds(this);
         getInhouseAds.getAds(new OnAdsResponse() {
             @Override
@@ -48,3 +53,4 @@
                 // on getAds() response error
             }
         });
+    
