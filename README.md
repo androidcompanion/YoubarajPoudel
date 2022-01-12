@@ -6,7 +6,7 @@
  Add the dependency
 ```groovy
 dependencies {
-	        implementation 'com.github.androidcompanion:YoubarajPoudel:v1.0.0'
+	        implementation 'com.github.androidcompanion:YoubarajPoudel:v1.1.1'
 	}
 ```  
 
