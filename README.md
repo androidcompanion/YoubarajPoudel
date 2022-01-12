@@ -1,4 +1,6 @@
 # YoubarajPoudel
+
+
 // lib to show Ads in your app with easy steps
 
 
@@ -28,6 +30,10 @@
                 // setting ads in Grid layout with "light" theme (*for dark theme use "dark")                        // layout set in activity_main.xml ( your activity xml )
                 ShowMoreAppsLinear showMoreAppsGrid = new ShowMoreAppsLinear(YourActivity.this, "light", findViewById(R.id.lay_more_apps));
                 showMoreAppsGrid.setInstallButtonTextColor(getResources().getColor(R.color.black));
+
+
+                // To Show Inhouse Ads in horizontal scroll layout call
+                // ShowMoreAppsLinear showMoreAppsLinear = new ShowMoreAppsLinear(MainActivity.this, "light", findViewById(R.id.lay_more_apps));
 
 
                 // ** Modify your item layout ** //
