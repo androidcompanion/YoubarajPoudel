@@ -3,6 +3,23 @@
 --> lib to show Ads in your app with easy steps()
 
 
+ Add the dependency
+```groovy
+dependencies {
+	        implementation 'com.github.androidcompanion:YoubarajPoudel:Tag'
+	}
+```  
+
+Add it in your root build.gradle at the end of repositories:
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```  
+
 
 ```groovy
    // set container layout in XML file
