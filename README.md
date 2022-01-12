@@ -12,13 +12,6 @@
 
 
 
-// set container layout in XML file
-
- <RelativeLayout
-        android:id="@+id/lay_more_apps"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
 
  // get request for inhouse ads from server
         GetInhouseAds getInhouseAds = new GetInhouseAds(this);
