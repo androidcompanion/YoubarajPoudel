@@ -25,8 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
                 // on getAds() response success
                 // setting ads in Grid layout with "light" theme (*for dark theme use "dark")                        // layout set in activity_main.xml ( your activity xml )
-                ShowMoreAppsLinear showMoreAppsGrid = new ShowMoreAppsLinear(MainActivity.this, "light", findViewById(R.id.lay_more_apps));
+                ShowMoreAppsGrid showMoreAppsGrid = new ShowMoreAppsGrid(MainActivity.this, "light", findViewById(R.id.lay_more_apps));
                 showMoreAppsGrid.setInstallButtonTextColor(getResources().getColor(R.color.black));
+
+                // To Show Inhouse Ads in horizontal scroll layout call
+                // ShowMoreAppsLinear showMoreAppsLinear = new ShowMoreAppsLinear(MainActivity.this, "light", findViewById(R.id.lay_more_apps));
+
 
 
                 // ** Modify your item layout ** //
