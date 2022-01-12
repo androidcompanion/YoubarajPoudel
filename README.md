@@ -1,23 +1,6 @@
 # YoubarajPoudel
 
 
-// lib to show Ads in your app with easy steps
-
-
-
-
-
-
-
-
-
-
-
- // get request for inhouse ads from server
-        GetInhouseAds getInhouseAds = new GetInhouseAds(this);
-        getInhouseAds.getAds(new OnAdsResponse() {
-            @Override
-            public void onResponseSuccess() {
 
                 // on getAds() response success
                 // setting ads in Grid layout with "light" theme (*for dark theme use "dark")                        // layout set in activity_main.xml ( your activity xml )
